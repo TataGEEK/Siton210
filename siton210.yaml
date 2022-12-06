@@ -130,6 +130,11 @@ sensor:
     filters:
       - multiply: 0.001
 
+  - platform: uptime
+    name: "${node_name} uptime"
+    entity_category: diagnostic
+    disabled_by_default: false
+
   - platform: wifi_signal
     name: "${node_name} WiFi Signal"
     entity_category: diagnostic
