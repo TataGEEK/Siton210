@@ -26,8 +26,9 @@ api:
     key: ""
 
 ota:
-  #POUŽIJTE VLASTNÍ VYGENEROVANÉ HESLO
-  password: ""
+  - platform: esphome
+    #POUŽIJTE VLASTNÍ VYGENEROVANÉ HESLO
+    password: ""
 
 wifi:
   ssid: !secret wifi_ssid
