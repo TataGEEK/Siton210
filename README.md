@@ -1,5 +1,5 @@
 # Siton210
-ESPhome kód pro čtení dat přes Modbus z MPPT měniče Siton210
+ESPHome kód pro čtení dat přes Modbus z MPPT měniče Siton210
 
 Zařízení, ze kterého jsou získávána data:
 Fotovoltaický MPPT měnič pro ohřev vody SITON 210
@@ -14,6 +14,6 @@ Postup:
 2. Postavte Siton WiFi modul
 3. V menu Siton210 nastavte druh komunikace na Modbus
 4. V menu Siton210 nastavte ID měniče/adresu. Výchozí adresa je 12 (0x0C).
-5. V ESPhome (v Home Assistant) upravte kód podle potřeby (např. nastavte stejnou adresu měniče nebo změňte název zařízení). Většinu potřebných změn provedete hned na začátku kódu v části substitutions.
-6. Do ESPhome kódu doplňte Home Assistant API key, heslo pro OTA aktualizace a vytvořte vlastní heslo pro WiFi Fallback Hotspot. Využijte připravené hesla, které generuje ESPhome při vytvoření nového zařízení.
+5. V ESPHome (v Home Assistant) upravte kód podle potřeby (např. nastavte stejnou adresu měniče nebo změňte název zařízení). Většinu potřebných změn provedete hned na začátku kódu v části substitutions.
+6. Do ESPHome kódu doplňte Home Assistant API key, heslo pro OTA aktualizace a vytvořte vlastní heslo pro WiFi Fallback Hotspot. Využijte připravené hesla, které generuje ESPHome při vytvoření nového zařízení.
 7. Nahrajte kód do Siton WiFi modulu
